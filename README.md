@@ -36,13 +36,21 @@ Program ini membuat visualisasi lintasan orbit:
 
 ## Cara Penggunaan
 
-1. **Compile kedua program**:
+1. **Install dependency**:  
+   Pastikan sudah memiliki `gcc` dan `gnuplot` terinstal di sistem. Jika belum, maka dapat menginstalnya sesuai dengan sistem operasi yang dimiliki.
+
+   Contoh untuk Ubuntu:
+   ```bash
+   sudo apt-get install gcc gnuplot
+   ```
+
+2. **Compile kedua program**:
     ```bash
     gcc orbital_sim.c -o orbital_sim -lm
     gcc orbital_plot.c -o orbital_plot
     ```
 
-2. **Jalankan simulasi**:
+3. **Jalankan simulasi**:
     ```bash
     ./orbital_sim
     ```
@@ -51,7 +59,7 @@ Program ini membuat visualisasi lintasan orbit:
     - Kecepatan awal (vx, vy) dalam meter per detik
     - Step size waktu dan total waktu simulasi dalam detik
 
-3. **Hasilkan plot**:
+4. **Hasilkan plot**:
     ```bash
     ./orbital_plot
     ```
