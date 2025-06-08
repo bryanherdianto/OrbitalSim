@@ -1,4 +1,4 @@
-# Orbital Simulation with Runge-Kutta Method
+# Orbital Simulation with Runge-Kutta Fourth Order Method
 
 > Bryan Herdianto 2306210885
 
