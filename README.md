@@ -65,6 +65,10 @@ Program ini membuat visualisasi lintasan orbit:
     ```
     Ini akan menampilkan grafik yang menunjukkan lintasan orbit dari benda yang disimulasikan.
 
+## Link Youtube
+
+Untuk melihat video demonstrasi penggunaan program ini, silakan kunjungi [link Youtube](https://youtu.be/TBiRAq1eq8A).
+
 ## Contoh Input
 
 Untuk membuat simulasi orbit mirip Bumi, gunakan input berikut:
